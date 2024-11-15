@@ -6,7 +6,7 @@ public class StringSortableArray {
 
     private List<String> strList;
 
-
+// constructor for string list
     public StringSortableArray(String... strings) {
         this.strList = new ArrayList<>();
         Collections.addAll(this.strList, strings);
