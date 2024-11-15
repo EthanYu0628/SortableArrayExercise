@@ -6,7 +6,7 @@ public class IntegerSortableArray {
 
     private List<Integer> intList;
 
-
+// Contructor for integer list
     public IntegerSortableArray(List<Integer> intList) {
         this.intList = new ArrayList<>(intList);
     }
