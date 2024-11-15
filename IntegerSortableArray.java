@@ -29,4 +29,16 @@ public class IntegerSortableArray {
     public List<Integer> getList() {
         return intList;
     }
+
+    // Main method to test integer sorting
+    public static void main(String[] args) {
+        List<Integer> integers = List.of(5, 3, 8, 1, 9);
+        IntegerSortableArray integerArray = new IntegerSortableArray(integers);
+
+        System.out.println("Original Integer List: " + integerArray.getList());
+        integerArray.sortAsc();
+        System.out.println("Ascending: " + integerArray.getList());
+        integerArray.sortDesc();
+        System.out.println("Descending: " + integerArray.getList());
+    }
 }
